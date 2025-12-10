@@ -46,6 +46,10 @@ Datasets originais reorganizados e balanceados para treino eficiente.
 - Sistema de recuperação automática  
 - Histórico de training curves
 
+----
+
+### Notes : o dataset não deu para colocar, nem o best_model.pth e o latest_checkpoint_pth
+
 ### Avaliação (`evaluation_results/`)
 Métricas quantitativas pré-calculadas (dispensável - regenerável via notebook).
 
