@@ -1,5 +1,0 @@
-data/*
-*.pt
-!results/*.pt
-!data/README
-*.pyc

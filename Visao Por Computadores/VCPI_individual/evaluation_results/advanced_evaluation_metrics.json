@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-17T19:05:38.005744",
+    "evaluation_type": "advanced_perceptual_analysis",
+    "num_samples_fid": 1000,
+    "num_samples_lpips": 100,
+    "num_samples_is": 1000,
+    "model_epoch": 28
+  },
+  "fid_scores": {
+    "A_to_B": 254.65247448935096,
+    "B_to_A": 262.93834619788515,
+    "average": 258.7954103436181
+  },
+  "lpips_scores": {
+    "A_to_B": 0.535095001757145,
+    "B_to_A": 0.7510455948114395,
+    "average": 0.6430702982842922
+  },
+  "inception_scores": {
+    "fake_A_mean": 3.128326892852783,
+    "fake_A_std": 0.1637548953294754,
+    "fake_B_mean": 2.325336456298828,
+    "fake_B_std": 0.17122215032577515
+  },
+  "failure_analysis": {
+    "worst_A2B_loss": 0.36564895510673523,
+    "avg_A2B_loss": 0.057341636441648004,
+    "worst_B2A_loss": 0.045365285128355026,
+    "avg_B2A_loss": 0.008102173089515418,
+    "worst_A2B_indices": [
+      990,
+      643,
+      250,
+      953,
+      937
+    ],
+    "worst_B2A_indices": [
+      363,
+      20,
+      505,
+      849,
+      139
+    ]
+  },
+  "literature_comparison_fid": {
+    "CycleGAN_original": {
+      "horse2zebra": 77.2,
+      "summer2winter": 75.8
+    },
+    "AttentionGAN": {
+      "selfie2anime": 71.4
+    },
+    "UNIT": {
+      "face_translation": 85.2
+    },
+    "your_model_A2B": 254.65247448935096,
+    "your_model_B2A": 262.93834619788515
+  }
+}

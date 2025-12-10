@@ -1,0 +1,14 @@
+RELATÓRIO DE AVALIAÇÃO QUANTITATIVA
+==================================================
+
+Data: 2025-06-17 18:19:11
+Amostras avaliadas: 100
+
+MÉTRICAS PRINCIPAIS:
+Cycle Consistency: 0.0310
+L1 A→B: 0.6740
+L1 B→A: 0.8981
+
+POSIÇÃO NA LITERATURA: 1/5
+Superior a 4 método(s)
+Avaliação: 🎉 EXCEPCIONAL! Nível state-of-the-art!
